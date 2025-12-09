@@ -4,7 +4,8 @@ LESSONS
 Lesson 1: Working with APIs, Web Scraping and Requests.   
 Lesson 2: Here I documented my learning, working with different file types including CSV/JSON/XLSX/XML and Binary. I also learned how to get simple descirptive statistics from a dataset.   
 Lesson 3: Basic SQL Coding. (SELECT INSERT UPDATE DELETE)   
-Lesson 4: More SQL Coding. (ALTER CREATE INSERT UPDATE DROP TRUNCATE)      
+Lesson 4: More SQL Coding. (ALTER CREATE INSERT UPDATE DROP TRUNCATE)   
+Lesson 5: Further SQL Coding (LIKE BETWEEN (AND), GROUP BY (HAVING), ORDER BY (DESC))  
 
 PROJECTS     
 Project 1: Here I extracted data from a website using webscraping and reqeust APIs process it using Pandas and Numpy libraries.   
