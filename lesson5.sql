@@ -157,3 +157,79 @@ FROM EMPLOYEES
 GROUP BY DEP_ID
 HAVING AVG(SALARY) >= 60000
 ORDER BY AVG(SALARY) DESC
+
+-- Built-in Functions
+
+create table PETRESCUE ( -- Init the table
+	ID INTEGER NOT NULL,
+	ANIMAL VARCHAR(20),
+	QUANTITY INTEGER,
+	COST DECIMAL(6,2),
+	RESCUEDATE DATE,
+	PRIMARY KEY (ID)
+	);
+
+insert into PETRESCUE values 
+	(1,'Cat',9,450.09,'2018-05-29'),
+	(2,'Dog',3,666.66,'2018-06-01'),
+	(3,'Dog',1,100.00,'2018-06-04'),
+	(4,'Parrot',2,50.00,'2018-06-04'),
+	(5,'Dog',1,75.75,'2018-06-10'),
+	(6,'Hamster',6,60.60,'2018-06-11'),
+	(7,'Cat',1,44.44,'2018-06-11'),
+	(8,'Goldfish',24,48.48,'2018-06-14'),
+	(9,'Dog',2,222.22,'2018-06-15')
+	
+;
+
+SELECT SUM(COST) FROM PETRESCUE; -- SUM operator
+SELECT MAX(QUANTITY) FROM PETRESCUE; -- MAX operator
+SELECT MIN(QUANTITY) FROM PETRESCUE; -- MIN operator
+SELECT AVG(COST) FROM PETRESCUE; -- AVG operator
+
+SELECT ROUND(COST, 2) FROM PETRESCUE; -- Returns cost column with rounded decimal places 
+SELECT LENGTH(ANIMAL) FROM PETRESCUE; -- Outputs the length of each element in the column
+SELECT UCASE(ANIMAL) FROM PETRESCUE; -- Makes it all uppercase
+SELECT LCASE(ANIMAL) FROM PETRESCUE; -- Makes it all lower case
+
+SELECT DAY(RESCUEDATE) FROM PETRESCUE; -- Returns the data in a data function
+SELECT MONTH(RESCUEDATE) FROM PETRESCUE; -- Returns the month in the data function
+SELECT YEAR(RESCUEDATE) FROM PETRESCUE; -- Returns the year in a data function
+
+SELECT DATE_ADD(RESCUEDATE, INTERVAL 3 DAY) FROM PETRESCUE -- This will add three days to the date variable
+SELECT DATE_SUB(RESCUEDATE, INTERVAL 3 DAY) FROM PETRESCUE -- This will subtract three days from the date variable
+SELECT DATEDIFF(CURRENT_DATE, RESCUEDATE) FROM PETRESCUE -- Calculates the difference in days for two given date varaibles
+SELECT FROM_DAYS(DATEDIFF(CURRENT_DATE, RESCUEDATE)) FROM PETRESCUE -- FROM_DAYS gives us the data in the date format and current date returns today's date.
+
+-- SUB-QUERIES AND NESTED SELECTs.
+-- Can be used to use built-in fuctions like AVG() in WHERE clauses.
+
+SELECT *
+FROM EMPLOYEES
+WHERE SALARY < (SELECT AVG(SALARY) FROM EMPLOYEES); -- This includes a nested selected to condition inside the WHERE clause.
+
+SELECT EMP_ID, SALARY, (SELECT MAX(SALARY) FROM EMPLOYEES) AS MAX_SALARY -- This is how you get it as a column
+FROM EMPLOYEES;
+
+SELECT AVG(SALARY) 
+FROM (SELECT SALARY 
+      FROM EMPLOYEES 
+      ORDER BY SALARY DESC 
+      LIMIT 5) AS SALARY_TABLE; -- This will give you the top 5 earners by salary
+
+-- Working with Multiple Tables
+
+SELECT * FROM EMPLOYEES WHERE JOB_ID IN (SELECT JOB_IDENT FROM JOBS); -- Retrieves rows for which the JOB_ID matches with JOB_IDENT in JOBS table.
+
+SELECT JOB_TITLE, MIN_SALARY, MAX_SALARY, JOB_IDENT -- This retrieves the rows in JOBS table where the JOB_IDENT matches JOB_ID and salary was as mentioned.
+FROM JOBS
+WHERE JOB_IDENT IN (select JOB_ID from EMPLOYEES where SALARY > 70000 );
+
+SELECT * -- IMPLICIT join at JOB_ID AND JOB_IDENT
+FROM EMPLOYEES, JOBS
+WHERE EMPLOYEES.JOB_ID = JOBS.JOB_IDENT;
+
+SELECT E.EMP_ID, E.F_NAME, E.L_NAME, J.JOB_TITLE -- Implicit joins with aliases and prefixed selects
+FROM EMPLOYEES E, JOBS J
+WHERE E.JOB_ID = J.JOB_IDENT;
+
