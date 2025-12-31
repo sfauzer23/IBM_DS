@@ -8,6 +8,8 @@
 - Lesson 5: Further SQL Coding (LIKE BETWEEN (AND), GROUP BY (HAVING), ORDER BY (DESC)), Incluing nested/sub-queries.     
 - Lesson 6: Accessing SQL database using Python, retrieving data in python and accessing databases using SQL Magic            
 - Lesson 7: Querying SQLite database using Python and unputting csv data into database
+- Lesson 8: Import the dataset and organision    
+- Lesson 9: Pre-processing data  
 
 ## PROJECTS     
 - Project 1: Here I extracted data from a website using webscraping and reqeust APIs process it using Pandas and Numpy libraries.   
