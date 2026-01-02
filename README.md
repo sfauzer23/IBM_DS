@@ -10,6 +10,7 @@
 - Lesson 7: Querying SQLite database using Python and unputting csv data into database
 - Lesson 8: Import the dataset and organision    
 - Lesson 9: Pre-processing data  
+- Lesson 10: Exploratory Analysis (Correlations and Descriptive Statistics)     
 
 ## PROJECTS     
 - Project 1: Here I extracted data from a website using webscraping and reqeust APIs process it using Pandas and Numpy libraries.   
