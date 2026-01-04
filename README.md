@@ -19,3 +19,4 @@
 - Project 2: Here I extracted data from an API and a URL and then used BeautifulSoup to parse through it. Then i used a function to create a graph on stock prices/revenue on Tesla and Gamestop.    
 - Project 3: Accessing data from SQL in python using Magic and creating graphs from them.  
 - Project 4: Querying CSV data in SQLite using Python and learning to use impliciting joins.      
+- Project 5: Data Preprocessing, Data Wrangling, Model Development, Model Refinement, Model Evaluation.
