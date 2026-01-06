@@ -13,6 +13,7 @@
 - Lesson 10: Exploratory Analysis (Correlations and Descriptive Statistics)     
 - Lesson 11: Model Development  
 - Lesson 12: Model Evaluation  
+- Lesson 13: Data Visualisation: Matplotlib and Line Plot
 
 ## PROJECTS     
 - Project 1: Here I extracted data from a website using webscraping and reqeust APIs process it using Pandas and Numpy libraries.   
