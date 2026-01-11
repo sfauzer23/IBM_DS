@@ -17,6 +17,7 @@
 - Leson 14: Advanced Visualisations: Waffle Charts, World Clouds and Geospacial visualisation technqiues using the folium library 
 - Lesson 15: Dashboarding using Plotly   
 - Lesson 16: Web-Based dashboarding using Dash  
+- Lesson 17/17P2: Plotly and Dash dashboarding for Australian Wildfire database
 
 ## PROJECTS     
 - Project 1: Here I extracted data from a website using webscraping and reqeust APIs process it using Pandas and Numpy libraries.   
@@ -24,3 +25,4 @@
 - Project 3: Accessing data from SQL in python using Magic and creating graphs from them.  
 - Project 4: Querying CSV data in SQLite using Python and learning to use impliciting joins.      
 - Project 5: Data Preprocessing, Data Wrangling, Model Development, Model Refinement, Model Evaluation.
+- Project 6/6P2: Interactive Data Visualisation using Plotly and Dash for web-based dashboarding.
