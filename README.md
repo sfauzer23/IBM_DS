@@ -15,7 +15,8 @@
 - Lesson 12: Model Evaluation  
 - Lesson 13: Data Visualisation: Matplotlib and Line/Scatter/Pie/Area/Histogram/Bar/Box Plot
 - Leson 14: Advanced Visualisations: Waffle Charts, World Clouds and Geospacial visualisation technqiues using the folium library 
-- Lesson 15: Dashboarding using Plotly    
+- Lesson 15: Dashboarding using Plotly   
+- Lesson 16: Web-Based dashboarding using Dash  
 
 ## PROJECTS     
 - Project 1: Here I extracted data from a website using webscraping and reqeust APIs process it using Pandas and Numpy libraries.   
