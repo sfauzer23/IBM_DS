@@ -19,6 +19,7 @@
 - Lesson 16: Web-Based dashboarding using Dash  
 - Lesson 17/17P2: Plotly and Dash dashboarding for Australian Wildfire database
 - Lesson 18: Simple/Multiple/Polynomial regressions along with logistic regressions (machine learning)
+- Lesson 19: Supervised Learning Models (Logistic Regressions, Decision Trees, Regression Trees)
 
 ## PROJECTS     
 - Project 1: Here I extracted data from a website using webscraping and reqeust APIs process it using Pandas and Numpy libraries.   
