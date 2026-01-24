@@ -21,6 +21,7 @@
 - Lesson 18: Simple/Multiple/Polynomial regressions along with logistic regressions (machine learning)
 - Lesson 19: Supervised Learning Models (Logistic Regressions, Decision Trees, Regression Trees)
 - Lesson 20: Classifcation methods such as SVM, KNN, Random Forest and XGBoost
+- Lesson 21: Dimentionality reduction and feature engineering (PCA, t-SNE, UMAP)
 
 ## PROJECTS     
 - Project 1: Here I extracted data from a website using webscraping and reqeust APIs process it using Pandas and Numpy libraries.   
