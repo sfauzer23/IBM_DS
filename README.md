@@ -14,7 +14,7 @@
 - Lesson 11: Model Development  
 - Lesson 12: Model Evaluation  
 - Lesson 13: Data Visualisation: Matplotlib and Line/Scatter/Pie/Area/Histogram/Bar/Box Plot
-- Leson 14: Advanced Visualisations: Waffle Charts, World Clouds and Geospacial visualisation technqiues using the folium library 
+- Lesson 14: Advanced Visualisations: Waffle Charts, World Clouds and Geospacial visualisation technqiues using the folium library 
 - Lesson 15: Dashboarding using Plotly   
 - Lesson 16: Web-Based dashboarding using Dash  
 - Lesson 17/17P2: Plotly and Dash dashboarding for Australian Wildfire database
@@ -22,6 +22,9 @@
 - Lesson 19: Supervised Learning Models (Logistic Regressions, Decision Trees, Regression Trees)
 - Lesson 20: Classifcation methods such as SVM, KNN, Random Forest and XGBoost
 - Lesson 21: Dimentionality reduction and feature engineering (PCA, t-SNE, UMAP)
+- Lesson 22: Evaluating Classification Models and K-mean clustering 
+- Lesson 23: Regularisation (LASSO, RIDGE) and Machine Learning Pipelines
+
 
 ## PROJECTS     
 - Project 1: Here I extracted data from a website using webscraping and reqeust APIs process it using Pandas and Numpy libraries.   
