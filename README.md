@@ -24,6 +24,7 @@
 - Lesson 21: Dimentionality reduction and feature engineering (PCA, t-SNE, UMAP)
 - Lesson 22: Evaluating Classification Models and K-mean clustering 
 - Lesson 23: Regularisation (LASSO, RIDGE) and Machine Learning Pipelines
+- Lesson 24: Practice project, predicitng titanic survival using Pipelines with Random Forest and Logistic Regressions.
 
 
 ## PROJECTS     
@@ -33,3 +34,4 @@
 - Project 4: Querying CSV data in SQLite using Python and learning to use impliciting joins.      
 - Project 5: Data Preprocessing, Data Wrangling, Model Development, Model Refinement, Model Evaluation.
 - Project 6/6P2: Interactive Data Visualisation using Plotly and Dash for web-based dashboarding.
+- Project 7: Building a predictor for rainfall in Australia using a Random forest and Logistic regression in a pipeline.
