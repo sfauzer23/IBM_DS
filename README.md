@@ -25,6 +25,7 @@
 - Lesson 22: Evaluating Classification Models and K-mean clustering 
 - Lesson 23: Regularisation (LASSO, RIDGE) and Machine Learning Pipelines
 - Lesson 24: Practice project, predicitng titanic survival using Pipelines with Random Forest and Logistic Regressions.
+- Lesson 25: Gathering data for SpaceX landing prediction
 
 
 ## PROJECTS     
