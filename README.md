@@ -26,6 +26,9 @@
 - Lesson 23: Regularisation (LASSO, RIDGE) and Machine Learning Pipelines
 - Lesson 24: Practice project, predicitng titanic survival using Pipelines with Random Forest and Logistic Regressions.
 - Lesson 25: Gathering data for SpaceX landing prediction
+- Lesson 26: Using SQL to conduct Exploratory Data Analysis on the SpaceX landing prediction data
+- Lesson 27: Using Folium to visual success and failed launches of rocket landingings from the SpaceX landing prediction data
+- Lesson 28: Using Plotly and Dash to create interactive web-based visualisations to show SpaceX Landing Records.
 
 
 ## PROJECTS     
